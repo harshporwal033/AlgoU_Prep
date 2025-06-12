@@ -86,7 +86,7 @@ streamlit run Dashboard.py
 
 Made with 💻 and ☕ by Harsh Porwal
 
-* 📧 [harshporwal033@gmail.com](mailto:harshporwal033@gmail.com)
+* 📧 Email: [harshporwal033@gmail.com](mailto:harshporwal033@gmail.com)
 * 🔗 LinkedIn: [https://www.linkedin.com/in/harsh-porwal-576815255](https://www.linkedin.com/in/harsh-porwal-576815255)
 * 🐙 GitHub: [https://github.com/harshporwal033](https://github.com/harshporwal033)
 
