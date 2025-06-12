@@ -1,6 +1,6 @@
-# AlgoU Interview Prep Dashboard
+# AlgoU Prep Dashboard
 
-AlgoU is an interactive Streamlit dashboard designed to help software engineers prepare for technical interviews with top tech companies. It features 350+ real interview questions sourced from candidate experiences, company-wise insights, and dynamic visualizations to guide your prep efficiently.
+AlgoU Prep Dashboard is an interactive Streamlit-based web app crafted to assist software engineers in preparing for every stage of technical interviews — from Online Assessments (OAs) to advanced System Design and LLD rounds. With over 350 curated questions based on real candidate experiences and tailored company insights, this tool empowers users to prepare smarter and faster.
 
 🌐 Live App: [https://algouprep-xg6lpsihhvneydsjhunvbk.streamlit.app/](https://algouprep-xg6lpsihhvneydsjhunvbk.streamlit.app/)
 
@@ -10,47 +10,51 @@ AlgoU is an interactive Streamlit dashboard designed to help software engineers 
 
 ## 🧠 Features
 
-* 🔍 Filter 350+ authentic interview questions by:
+🔍 Explore and filter 350+ real interview questions by:
 
-  * Company (Google, Microsoft, Uber, Intuit, Salesforce)
-  * Round type (Online Test, LLD, DSA, System Design, etc.)
-  * Difficulty (Easy, Medium, Hard)
-  * Role (SDE, Intern, etc.)
-* 📄 View associated candidate blogs and external question links
-* 📊 Company Insights:
+* Company (Google, Microsoft, Uber, Intuit, Salesforce)
+* Round Type (Online Assessment, DSA, LLD, System Design, Behavioral, etc.)
+* Difficulty Level (Easy, Medium, Hard)
+* Role (SDE, Intern, etc.)
 
-  * Round frequency distribution
-  * Difficulty spread
-  * Most frequent topic & round type
-  * Recent trending tags
-* 🧭 Intuitive sidebar navigation with smooth in-place SPA transitions (no reloads)
-* 🌑 Dark mode aesthetics with styled navbar and consistent layout
+📄 Link directly to candidate blogs and original question sources
+
+📊 Company-Specific Insights:
+
+* Round frequency breakdown
+* Difficulty distribution graphs
+* Frequently asked topics and trending tags
+
+🧭 Smooth User Experience:
+
+* Sidebar navigation with in-place (SPA-style) transitions
+* Modern dark theme and consistent UI styling
 
 ---
 
 ## 🛠️ Built With
 
-* Streamlit (frontend UI)
-* Pandas (data processing)
-* Matplotlib (charts)
-* Google Sheets (CSV-based question data)
-* HTML/CSS (for custom navigation)
+* Streamlit – for the frontend interface
+* Pandas – for data filtering and transformation
+* Matplotlib – for visualizations and analytics
+* Google Sheets – for question dataset input and updates
+* HTML/CSS – for custom styling and navigation
 
 ---
 
 ## 📁 Project Structure
 
 .
-├── Dashboard.py              # Main Streamlit app
+├── Dashboard.py              # Main application file
 ├── requirements.txt          # Python dependencies
-├── README.md                 # You're reading this
-└── assets/ (optional)        # Logos, icons, styles
+├── README.md                 # Documentation
+└── assets/                   # Optional: logos, icons, stylesheets
 
 ---
 
 ## 🚀 Getting Started
 
-To run the app locally:
+Follow these steps to run AlgoU Prep Dashboard locally:
 
 1. Clone the repository
 
@@ -59,13 +63,13 @@ git clone https://github.com/harshporwal033/AlgoU_Prep.git
 cd AlgoU_Prep
 ```
 
-2. Install the requirements
+2. Install required packages
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Start the Streamlit app
+3. Launch the dashboard
 
 ```bash
 streamlit run Dashboard.py
@@ -75,19 +79,18 @@ streamlit run Dashboard.py
 
 ## 📌 Future Improvements
 
-* [ ] Add option to upload personal question datasets (CSV)
-* [ ] Resume-based smart question filtering
-* [ ] Export filtered questions to CSV
-* [ ] Bookmark/save favorite questions
-* [ ] Add login/auth for personalization
+* [ ] Upload and manage personal datasets (CSV)
+* [ ] Intelligent filtering based on user resumes
+* [ ] Export filtered results to CSV
+* [ ] Save/bookmark preferred questions
+* [ ] Enable user login for personalization
 
 ---
 
 ## 👨‍💻 Author
 
-Made with 💻 and ☕ by Harsh Porwal
+Built with 💻 and ☕ by Harsh Porwal
 
-* 📧 Email: [harshporwal033@gmail.com](mailto:harshporwal033@gmail.com)
-* 🔗 LinkedIn: [https://www.linkedin.com/in/harsh-porwal-576815255](https://www.linkedin.com/in/harsh-porwal-576815255)
-* 🐙 GitHub: [https://github.com/harshporwal033](https://github.com/harshporwal033)
-
+📧 Email: [harshporwal033@gmail.com](mailto:harshporwal033@gmail.com)
+🔗 LinkedIn: [https://www.linkedin.com/in/harsh-porwal-576815255](https://www.linkedin.com/in/harsh-porwal-576815255)
+🐙 GitHub: [https://github.com/harshporwal033](https://github.com/harshporwal033)
