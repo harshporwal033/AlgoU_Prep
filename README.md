@@ -3,6 +3,7 @@
 AlgoU is an interactive Streamlit dashboard designed to help software engineers prepare for technical interviews with top tech companies. It features 350+ real interview questions sourced from candidate experiences, company-wise insights, and dynamic visualizations to guide your prep efficiently.
 
 🌐 Live App: [https://algouprep-xg6lpsihhvneydsjhunvbk.streamlit.app/](https://algouprep-xg6lpsihhvneydsjhunvbk.streamlit.app/)
+
 📁 GitHub Repo: [https://github.com/harshporwal033/AlgoU\_Prep](https://github.com/harshporwal033/AlgoU_Prep)
 
 ---
